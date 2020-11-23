@@ -35,7 +35,7 @@ height: 105px;*/
 
 #logo{
     position: absolute;
-    top:-20%;
+    top:-30%;
     left: 85%;
 
 }
@@ -211,8 +211,19 @@ border-radius:  0 0 20px 0;
 .picLink{
     text-align: left;
     display: block;
-    background: url(images\read_more_blue.png) no-repeat left center;
+    /* background: url(images\read_more_blue.png) no-repeat left center; */
 }
+
+#link_img{ /*space between img and text*/
+position: relative;
+right: 6px;
+}
+
+.page>.pageRow1>.PageR1C1>.TextOnPic>a:hover{
+    color: rgb(1, 52, 192);
+   
+  }
+
 
 /*  --------------------------Row2----------------------*/
 
