@@ -18,7 +18,7 @@ flex-direction: column;
 align-items: center;
 background-color: gray;
 text-align: center;
-position: relative;
+/* position: relative; */
 /*width: 900px;
 height: 105px;*/
 }
@@ -26,15 +26,17 @@ height: 105px;*/
 .header>.headerRow1,.headerRow2 {  
     background-color: rgb(165, 164, 165); /*to be deleted later*/
     border: solid black 2px; /*to be deleted later*/
-
     width: 900px;
     height: 52.5px;
 }
+.header>.headerRow2 { 
+  position: relative;  
+}
 
-.header>img{
+#logo{
     position: absolute;
-    top: 40%;
-    left: 70%;
+    top:-20%;
+    left: 85%;
 
 }
 
