@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }*/
 
-/*------------------------Header CSS-----------------*/
-
 body{
     direction: rtl;
     text-align: right;
+    margin: 0;
   }
+
+/*------------------------Header CSS-----------------*/
 
 .header{
 display: flex;
@@ -21,14 +22,80 @@ text-align: center;
 height: 105px;*/
 }
 
-.header>.headerRow1,.headerRow2 {
-    background-color: rgb(226, 21, 226);
-    border: solid black 2px;
+.header>.headerRow1,.headerRow2 {  
+    background-color: rgb(165, 164, 165); /*to be deleted later*/
+    border: solid black 2px; /*to be deleted later*/
 
     width: 900px;
     height: 52.5px;
 }
 
+/*------------------------NavBar-----------------*/
+
+.header>.headerRow2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header>.headerRow2>nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header>.headerRow2>nav > ul>li {
+    display: inline-block;
+    margin: 0 16px 0 16px; /*to be deleted when adding space PIC*/
+    text-align: right;
+}
+
+.header>.headerRow2> nav > ul > li > a,  .dropdownContent > a{
+    color: white;
+    text-decoration: none;
+ 
+    /*width: fit-content;*/
+    /*padding: 10px;*/
+  }
+  .header>.headerRow2> nav {
+      height: 100%;
+  }
+  .header>.headerRow2> nav>ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header>.headerRow2> nav>ul>li {
+    height: 100%;
+}
+
+/*change style in hover*/
+.header>.headerRow2>nav > ul > li > a:hover, .dropdownContent > a:hover, .dropdown:hover > a {
+  color: rgb(1, 52, 192);
+  text-decoration: underline;
+}
+
+.header>.headerRow2> nav > ul >.dropdown:hover > .dropdownContent {
+    display: block;
+  }
+
+.header>.headerRow2> nav > ul >.dropdown {
+    position: relative;
+  }
+
+  .header>.headerRow2> nav > ul > li >.dropdownContent {
+    background-color:rgb(165, 164, 165);;
+    /* width: fit-content; */
+    position: absolute;
+    top:37px;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.5);
+    display: none;
+  }
+
+  
 
 /*  -----------------------Page CSS-------------------*/
 
@@ -61,7 +128,7 @@ height: 105px;*/
 
 .page>.pageRow2{
     height: 216px;
-    margin: 18px 0 0 0;
+    margin: 18px 0 30px 0;
 }
 /*  --------------------------Row1----------------------*/
 
