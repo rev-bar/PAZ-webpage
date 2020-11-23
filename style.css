@@ -177,6 +177,42 @@ font-size: small;
     margin: 0 10px 0 10px;
 }
 
+.page>.pageRow1>.PageR1C1{
+    background-image: url(images/1908364606615453350.JPG); 
+    border-radius:  0 0 20px 0;
+}
+
+/* ---------------text on images in page-------------- */
+.TextOnPic{
+width: 228px;
+background-color: rgb(118, 118, 118);
+padding: 10px;
+/* display: flex;
+flex-wrap: wrap; */
+margin: 215px 5px 2px 0;
+border-radius:  0 0 20px 0;
+}
+.TextOnPicHead{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;    
+}
+
+.Text,.picLink{
+    font-size: 13px;
+    color: white;
+    text-align: right;
+    /* margin: 4px 2px 1px 6px; */
+    margin: 0;
+}
+
+.picLink{
+    text-align: left;
+    display: block;
+    background: url(images\read_more_blue.png) no-repeat left center;
+}
 
 /*  --------------------------Row2----------------------*/
 
@@ -186,8 +222,7 @@ font-size: small;
     border: 0;
     margin: 0;
     padding: 0;
-    background-color: rgb(79, 178, 224);
-
+    background-color: red;
 
 }
 .page>.pageRow2>.PageR2C2{
