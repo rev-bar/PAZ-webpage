@@ -4,6 +4,11 @@
 
 /*------------------------Header CSS-----------------*/
 
+body{
+    direction: rtl;
+    text-align: right;
+  }
+
 .header{
 display: flex;
 flex-wrap: wrap;
