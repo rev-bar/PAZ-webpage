@@ -1,6 +1,6 @@
-*{
+/**{
     box-sizing: border-box;
-}
+}*/
 
 /*------------------------Header CSS-----------------*/
 
@@ -36,19 +36,29 @@ height: 105px;*/
     text-align: center;  
 }
 
-.page>.pageRow1{
-    background-color: rgb(171, 226, 21);
-    border: solid black 2px;   
+/*  -----------------------Row1+Row2-------------------*/
+
+.page>.pageRow1,.pageRow2{
+    background-color: rgb(171, 226, 21);   
     width: 900px;
-    height: 355px;
     border: 0;
-    margin: 0;
     padding: 0;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.page>.pageRow1{
+    height: 355px;
+    margin: 30px 0 0 0;
+}
+
+.page>.pageRow2{
+    height: 216px;
+    margin: 18px 0 0 0;
+}
+/*  --------------------------Row1----------------------*/
 
 .page>.pageRow1>.PageR1C1,.PageR1C2,.PageR1C3{
     width: 293px;
@@ -62,6 +72,20 @@ height: 105px;*/
     margin: 0 10px 0 10px;
 }
 
+
+/*  --------------------------Row2----------------------*/
+
+.page>.pageRow2>.PageR2C1,.PageR2C2,.PageR2C3{
+    width: 244px;
+    height: 216px;
+    border: 0;
+    margin: 0;
+    padding: 0 24px 0 24px;
+    background-color: rgb(79, 178, 224);
+}
+.page>.pageRow2>.PageR2C2{
+    margin: 0 11px 0 11px;
+}
 
 
 /*-------------------------Footer CSS-----------------*/
