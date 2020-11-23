@@ -244,10 +244,12 @@ right: 6px;
 .page>.pageRow2>.PageR2C1,.PageR2C2,.PageR2C3{
     width: 293px;
     height: 216px;
-    border: 0;
+    border: solid  rgb(230, 230, 230) 0.5px;
+    border-radius:  0 20px 0 0;
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    
 
 }
 .page>.pageRow2>.PageR2C2{
