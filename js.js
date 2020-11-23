@@ -24,3 +24,21 @@ function changePicOn2(){
         function changePicOff3(){
             document.getElementById("link_img3").src="images/read_more_white.png";  
         }
+
+        function changePicOn4(){
+            document.getElementById("link_img4").src="images/read_more_yellow.png";
+            }
+            
+            
+            function changePicOff4(){
+                document.getElementById("link_img4").src="images/read_more_yellow.png";  
+            }
+
+            function changePicOn5(){
+                document.getElementById("link_img5").src="images/read_more_yellow.png";
+                }
+                
+                
+                function changePicOff5(){
+                    document.getElementById("link_img5").src="images/read_more_yellow.png";  
+                }
