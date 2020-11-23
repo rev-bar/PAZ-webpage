@@ -144,7 +144,7 @@ font-size: small;
 /*  -----------------------Row1+Row2-------------------*/
 
 .page>.pageRow1,.pageRow2{
-    background-color: rgb(171, 226, 21);   
+    /* background-color: rgb(171, 226, 21);    */
     width: 900px;
     border: 0;
     padding: 0;
@@ -182,6 +182,18 @@ font-size: small;
     border-radius:  0 0 20px 0;
 }
 
+.page>.pageRow1>.PageR1C2{
+    background-image: url(images/Picture-046410251500.JPG); 
+    border-radius:  0 0 20px 0;
+}
+
+.page>.pageRow1>.PageR1C3{
+    background-image: url(images/פזקר_-291_354410564000.JPG); 
+    border-radius:  0 0 20px 0;
+}
+
+
+
 /* ---------------text on images in page-------------- */
 .TextOnPic{
 width: 228px;
@@ -189,7 +201,7 @@ background-color: rgb(118, 118, 118);
 padding: 10px;
 /* display: flex;
 flex-wrap: wrap; */
-margin: 215px 5px 2px 0;
+margin: 235px 5px 2px 0;
 border-radius:  0 0 20px 0;
 }
 .TextOnPicHead{
@@ -208,22 +220,24 @@ border-radius:  0 0 20px 0;
     margin: 0;
 }
 
+.Text{
+    width: 228px;
+}
+
 .picLink{
     text-align: left;
     display: block;
     /* background: url(images\read_more_blue.png) no-repeat left center; */
 }
 
-#link_img{ /*space between img and text*/
+#link_img1,#link_img2,#link_img3{ /*space between img and text*/
 position: relative;
 right: 6px;
 }
 
-.page>.pageRow1>.PageR1C1>.TextOnPic>a:hover{
+.TextOnPic>a:hover{
     color: rgb(1, 52, 192);
-   
-  }
-
+}
 
 /*  --------------------------Row2----------------------*/
 
