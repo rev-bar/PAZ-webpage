@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     direction: rtl;
     text-align: right;
-    margin: 0;
+    margin: 0 0 55px 0;
   }
 
 /*------------------------Header CSS-----------------*/
@@ -17,7 +18,7 @@ flex-direction: column;
 align-items: center;
 background-color: gray;
 text-align: center;
-
+position: relative;
 /*width: 900px;
 height: 105px;*/
 }
@@ -30,6 +31,13 @@ height: 105px;*/
     height: 52.5px;
 }
 
+.header>img{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+
+}
+
 /* ----------------search-------------------- */
 .header>.headerRow1{
     display: flex;
@@ -37,6 +45,14 @@ height: 105px;*/
     align-items: center;
     justify-content: flex-end;
 }
+
+.header>.headerRow1>img,p{
+padding: 0 2px 0 5px;
+color: white;
+font-size: small;
+}
+
+
 
 
 /*------------------------NavBar-----------------*/
@@ -46,7 +62,6 @@ height: 105px;*/
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-end;
-    font-size: 15px;
     font-weight: bold;
 }
 
@@ -60,11 +75,13 @@ height: 105px;*/
     display: inline-block;
     margin: 0 16px 0 16px; /*to be deleted when adding space PIC*/
     text-align: right;
+    
 }
 
 .header>.headerRow2> nav > ul > li > a,  .dropdownContent > a{
     color: white;
     text-decoration: none;
+    font-size: 15px;
  
     /*width: fit-content;*/
     /*padding: 10px;*/
@@ -76,7 +93,7 @@ height: 105px;*/
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
     display: flex;
     align-items: center;
     padding-bottom:3px ;
@@ -142,7 +159,7 @@ height: 105px;*/
 
 .page>.pageRow2{
     height: 216px;
-    margin: 18px 0 30px 0;
+    margin: 18px 0 0 0;
 }
 /*  --------------------------Row1----------------------*/
 
@@ -162,15 +179,17 @@ height: 105px;*/
 /*  --------------------------Row2----------------------*/
 
 .page>.pageRow2>.PageR2C1,.PageR2C2,.PageR2C3{
-    width: 244px;
+    width: 293px;
     height: 216px;
     border: 0;
     margin: 0;
-    padding: 0 24px 0 24px;
+    padding: 0;
     background-color: rgb(79, 178, 224);
+
+
 }
 .page>.pageRow2>.PageR2C2{
-    margin: 0 11px 0 11px;
+    margin: 0 10px 0 10px;
 }
 
 
