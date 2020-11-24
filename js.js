@@ -26,7 +26,7 @@ function changePicOn2(){
         }
 
         function changePicOn4(){
-            document.getElementById("link_img4").src="images/read_more_yellow.png";
+            document.getElementById("link_img4").src="images/read_more_blue.png";
             }
             
             
@@ -35,7 +35,7 @@ function changePicOn2(){
             }
 
             function changePicOn5(){
-                document.getElementById("link_img5").src="images/read_more_yellow.png";
+                document.getElementById("link_img5").src="images/read_more_blue.png";
                 }
                 
                 

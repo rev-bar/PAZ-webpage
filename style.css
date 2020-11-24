@@ -232,6 +232,7 @@ border-radius:  0 0 20px 0;
 
 .picLinkR2{
     margin: 10px 0 0 27px;
+
 }
 #link_img1,#link_img2,#link_img3,#link_img4,#link_img5{ /*space between img and text*/
 position: relative;
@@ -262,9 +263,8 @@ right: 6px;
     color: gray;
 }
 
-.R2C1Content>a:hover{
-    /* color: rgb(1, 52, 192); */
-    color: red;
+.page>.pageRow2>.PageR2C1>.R2C1Content>a:hover{
+    color: rgb(1, 52, 192);
 }
 
 /*-------------------------Footer CSS-----------------*/
