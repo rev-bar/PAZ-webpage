@@ -48,11 +48,15 @@ height: 105px;*/
     justify-content: flex-end;
 }
 
-.header>.headerRow1>(img,p){
+.header>.headerRow1>p{
 padding: 0 2px 0 5px;
 color: white;
 font-size: small;
 }
+
+.header>.headerRow1>img{
+    padding: 0 2px 0 5px;
+    }
 
 
 
@@ -100,10 +104,10 @@ font-size: small;
     align-items: center;
     padding-bottom:3px ;
 
-}
+/* }
  .header>.headerRow2> nav>ul>li {
      /* padding-bottom:3px ; */
-} 
+}  */
 
 /*change style in hover*/
 .header>.headerRow2>nav > ul > li > a:hover, .dropdownContent > a:hover, .dropdown:hover > a {
