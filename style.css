@@ -257,12 +257,16 @@ right: 6px;
     margin: 0;
     padding: 0;
     background-image: linear-gradient(white, rgb(240, 240, 240));
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
     
 
 }
 .page>.pageRow2>.PageR2C2{
     margin: 0 10px 0 10px;
 }
+/* ----------R2C1 hover------------------- */
 .page>.pageRow2>.PageR2C1>.R2C1Content>a{
     color: gray;
 }
@@ -270,6 +274,22 @@ right: 6px;
 .page>.pageRow2>.PageR2C1>.R2C1Content>a:hover{
     color: rgb(1, 52, 192);
 }
+
+/* ----------R2C2 hover------------------- */
+.page>.pageRow2>.PageR2C2>.R2C2Content>a{
+    color: gray;
+}
+
+.page>.pageRow2>.PageR2C2>.R2C2Content>a:hover{
+    color: rgb(1, 52, 192);
+}
+
+.page>.pageRow2>.PageR2C2>.R2C2Content>p{
+    text-align: right;
+    margin-right: 18px;
+
+}
+
 
 /*-------------------------Footer CSS-----------------*/
 footer{
