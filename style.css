@@ -187,12 +187,12 @@ font-size: small;
 }
 
 .page>.pageRow1>.PageR1C2{
-    /* background-image: url(images/Picture-046410251500.JPG);  */
+    background-image: url(images/zikuk.jpg); 
     border-radius:  0 0 20px 0;
 }
 
 .page>.pageRow1>.PageR1C3{
-    /* background-image: url(images/פזקר_-291_354410564000.JPG);  */
+    background-image: url(images/pazkar.jpg); 
     border-radius:  0 0 20px 0;
 }
 
