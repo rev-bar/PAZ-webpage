@@ -41,7 +41,7 @@ height: 105px;*/
 
 }
 
-/* ----------------search-------------------- */
+/* ------------search------------- */
 .header>.headerRow1{
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@ font-size: small;
 
 
 
-/*------------------------NavBar-----------------*/
+/*---------------NavBar--------------*/
 
 .header>.headerRow2{
     display: flex;
@@ -134,9 +134,10 @@ font-size: small;
     display: none;
   }
 
-  
+  /* ---------------------------------------------------------
+  -------------------------------------------------------- */
 
-/*  -----------------------Page CSS-------------------*/
+/*  -------------------main Page CSS----------------*/
 
 .page{
     display: flex;
@@ -147,7 +148,7 @@ font-size: small;
     text-align: center;  
 }
 
-/*  -----------------------Row1+Row2-------------------*/
+/*  ---------------------Row1+Row2-----------------*/
 
 .page>.pageRow1,.pageRow2{
     /* background-color: rgb(171, 226, 21);    */
@@ -332,6 +333,256 @@ right: 6px;
     color: rgb(1, 52, 192);
 }
 
+/* ------------------------------------------------------------
+------------------------------------------------------------- */
+
+/*  -------------------Contact Page CSS----------------*/
+.contactPage{
+    padding-top: 32px;
+}
+
+.contactPage> .contactData{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:white;
+    text-align: center; 
+    justify-content: center; 
+}
+
+/* -------------column1-------- */
+
+.contactPage> .contactData > .conPageC1{
+    width: 122px;
+    height: 426px;
+    margin-left: 22px;
+}
+
+.contactPage> .contactData > .conPageC1> .conPageC1Container{
+    width: 122px;
+    height: 42px;
+    border-top:solid rgb(190, 190, 190) 1px;
+    background-image: linear-gradient(rgb(240, 240, 240),rgb(220,220,220));
+    display: flex;
+    align-items: center;
+}
+
+
+.contactPage> .contactData > .conPageC1> .conPageC1Container>a{
+    text-decoration: none;
+    margin-right:5px ;
+}
+
+/* -------------column2-------- */
+
+.contactPage > .contactData> .conPageC2{
+    width: 440px;
+    height: 426px;
+    margin-left: 24px;
+}
+
+/* -------------column3-------- */
+
+.contactPage> .contactData > .conPageC3{
+    width: 122px;
+    height: 426px;
+}
+
+/*-------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+----------------------------------------------*/
+
+/*  ---------------------Row1+Row2-----------------*/
+
+.page>.pageRow1,.pageRow2{
+    /* background-color: rgb(171, 226, 21);    */
+    width: 900px;
+    border: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page>.pageRow1{
+    height: 355px;
+    margin: 30px 0 0 0;
+}
+
+.page>.pageRow2{
+    height: 216px;
+    margin: 18px 0 0 0;
+}
+/*  --------------------------Row1----------------------*/
+
+.page>.pageRow1>.PageR1C1,.PageR1C2,.PageR1C3{
+    width: 293px;
+    height: 355px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(79, 178, 224);
+}
+.page>.pageRow1>.PageR1C2{
+    margin: 0 10px 0 10px;
+}
+
+.page>.pageRow1>.PageR1C1{
+    background-image: url(images/1908364606615453350.JPG); 
+    border-radius:  0 0 20px 0;
+}
+
+.page>.pageRow1>.PageR1C2{
+    background-image: url(images/zikuk.jpg); 
+    border-radius:  0 0 20px 0;
+}
+
+.page>.pageRow1>.PageR1C3{
+    background-image: url(images/pazkar.jpg); 
+    border-radius:  0 0 20px 0;
+}
+
+
+
+/* ---------------text on images in page-------------- */
+.TextOnPic{
+width: 228px;
+background-color: rgb(130, 130, 130);
+opacity: 0.9;
+padding: 10px;
+/* display: flex;
+flex-wrap: wrap; */
+margin: 235px 5px 2px 0;
+border-radius:  0 0 20px 0;
+}
+.TextOnPicHead{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;    
+}
+
+.Text,.picLink{
+    font-size: 13px;
+    color: white;
+    text-align: right;
+    /* margin: 4px 2px 1px 6px; */
+    margin: 0;
+}
+
+.Text{
+    width: 228px;
+}
+
+.picLink,.picLinkR2{
+    text-align: left;
+    display: block;
+    /* background: url(images\read_more_blue.png) no-repeat left center; */
+}
+
+.picLinkR2 {
+    margin: 10px 0 0 27px;
+}
+#link_img1,#link_img2,#link_img3,#link_img4,#link_img5,#link_img6,#link_img7,#link_img8{ /*space between img and text*/
+position: relative;
+right: 6px;
+}
+
+.TextOnPic>a:hover{
+    color: rgb(1, 52, 192);
+}
+
+/*  --------------------------Row2----------------------*/
+
+.page>.pageRow2>.PageR2C1,.PageR2C2,.PageR2C3{
+    width: 293px;
+    height: 216px;
+    border: solid  rgb(230, 230, 230) 0.5px;
+    border-radius:  0 20px 0 0;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+    
+
+}
+.page>.pageRow2>.PageR2C2{
+    margin: 0 10px 0 10px;
+}
+/* ----------R2C1 hover------------------- */
+.page>.pageRow2>.PageR2C1>.R2C1Content>a{
+    color: gray;
+}
+
+.page>.pageRow2>.PageR2C1>.R2C1Content>a:hover{
+    color: rgb(1, 52, 192);
+}
+
+/* ----------R2C2 hover------------------- */
+.page>.pageRow2>.PageR2C2>.R2C2Content>a{
+    color: #575757;
+}
+
+.page>.pageRow2>.PageR2C2>.R2C2Content>a:hover{
+    color: rgb(1, 52, 192);
+}
+/* ------------------------- */
+.page>.pageRow2>.PageR2C2>.R2C2Content>p{
+    text-align: right;
+    margin-right: 18px;
+}
+
+/* ------------PageR2C3 layout------------ */
+.page>.pageRow2> .PageR2C3>.mapContent{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: 100%;
+}
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR1{
+    width: 100%;
+    text-align: right;
+    margin-right:8px ;
+}
+
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR2>.mapR2C1{
+    width: 50%;
+    text-align: right;
+}
+
+.mapLink{
+    width: 100%;
+    display: block;
+    margin: 5px 5px 5px 40px;
+}
+
+/* ----------R2C2 hover------------------- */
+.page>.pageRow2>.PageR2C3>.mapContent>.mapR2>.mapR2C1>a{
+    color: #575757;
+}
+
+.page>.pageRow2>.PageR2C3>.mapContent>.mapR2>.mapR2C1>a:hover{
+    color: rgb(1, 52, 192);
+}
+
+
+
+
+/* --------------------------------------------------------------
+--------------------------------------------------------------- */
 
 /*-------------------------Footer CSS-----------------*/
 footer{
