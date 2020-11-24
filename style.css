@@ -234,11 +234,10 @@ border-radius:  0 0 20px 0;
     /* background: url(images\read_more_blue.png) no-repeat left center; */
 }
 
-.picLinkR2{
+.picLinkR2 {
     margin: 10px 0 0 27px;
-
 }
-#link_img1,#link_img2,#link_img3,#link_img4,#link_img5{ /*space between img and text*/
+#link_img1,#link_img2,#link_img3,#link_img4,#link_img5,#link_img6,#link_img7,#link_img8{ /*space between img and text*/
 position: relative;
 right: 6px;
 }
@@ -277,30 +276,98 @@ right: 6px;
 
 /* ----------R2C2 hover------------------- */
 .page>.pageRow2>.PageR2C2>.R2C2Content>a{
-    color: gray;
+    color: #575757;
 }
 
 .page>.pageRow2>.PageR2C2>.R2C2Content>a:hover{
     color: rgb(1, 52, 192);
 }
-
+/* ------------------------- */
 .page>.pageRow2>.PageR2C2>.R2C2Content>p{
     text-align: right;
     margin-right: 18px;
+}
 
+/* ------------PageR2C3 layout------------ */
+.page>.pageRow2> .PageR2C3>.mapContent{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: 100%;
+}
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR1{
+    width: 100%;
+    text-align: right;
+    margin-right:8px ;
+}
+
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.page>.pageRow2> .PageR2C3>.mapContent>.mapR2>.mapR2C1{
+    width: 50%;
+    text-align: right;
+}
+
+.mapLink{
+    width: 100%;
+    display: block;
+    margin: 5px 5px 5px 40px;
+}
+
+/* ----------R2C2 hover------------------- */
+.page>.pageRow2>.PageR2C3>.mapContent>.mapR2>.mapR2C1>a{
+    color: #575757;
+}
+
+.page>.pageRow2>.PageR2C3>.mapContent>.mapR2>.mapR2C1>a:hover{
+    color: rgb(1, 52, 192);
 }
 
 
 /*-------------------------Footer CSS-----------------*/
 footer{
-    background-color: gray;
+    position: fixed;
+    bottom: 0; 
+    background:  #575757;
     width: 100%;
     height: 38px;
+    left: 0;
+    right: 0;
     text-align: center;
-    font-size: 3em;
-
-    position: fixed;
-    bottom: 0;
+    font-size: 30px;
 }
+
+.footerLinks {
+    text-align: center;
+}
+.footerLinks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.footerLinks li {
+    display: inline;
+}
+footer>.footerLinks >ul>li>.footerLink {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footerLinks #redLink{
+    color: red;
+}
+
+footer>.footerLinks >ul>li> .footerSpace>img{
+    margin: 0 5px;
+    height: 14px;
+}
+
 
 
