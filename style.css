@@ -381,11 +381,60 @@ right: 6px;
     margin-left: 24px;
 }
 
+.contactPage > .contactData> .conPageC2> .C2Container1{
+    width: 440px;
+    height: 15px;
+    text-align: right;
+    color: #575757;
+    
+    padding-bottom: 4px;
+    margin-bottom: 12px; 
+} 
+.contactPage > .contactData> .conPageC2> .C2Container1>p{
+    margin-top: 0;
+    padding: 0;
+}
+.contactPage > .contactData> .conPageC2> .C2Container1>#cont{
+    border-bottom: solid 0.5px gray;
+}
+.contactPage> .contactData > .conPageC2{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.contactPage> .contactData > .conPageC2> .C2Container2{
+    width: 337px;
+    height: 332px;
+    padding: 12px 18px 12px 18px;
+    margin:20px 0 0 0  ;
+    border-radius:  0 20px 0 0;
+    border-top:solid rgb(190, 190, 190) 1px;
+    background-image: linear-gradient(rgb(240, 240, 240),rgb(220,220,220));
+}
+
+
 /* -------------column3-------- */
 
 .contactPage> .contactData > .conPageC3{
-    width: 122px;
-    height: 426px;
+    width: 292px;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactPage> .contactData > .conPageC3> .C3Container1,.C3Container2{
+    width: 248px;
+    height: 142px;
+    padding: 18px 22px 15px 22px;
+    border-radius:  0 20px 0 0;
+    border-top:solid rgb(190, 190, 190) 1px;
+    background-image: linear-gradient(rgb(240, 240, 240),rgb(220,220,220));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
 }
 
 /*-------------------------------------------------
